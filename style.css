@@ -9,3 +9,7 @@ body{
 .imagem-cabecalho{
     width: 40%;
 }
+.cabecalho{
+    background-color: blue;
+    display: flex;
+}
