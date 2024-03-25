@@ -10,6 +10,24 @@ body{
     width: 40%;
 }
 .cabecalho{
-    background-color: blue;
+    background-image: linear-gradient(brown, orange);
+    display: flex;
+}
+.cabecalho1{
+    background-color: orange;
+    display: flex;
+}
+.imagem-cabecalho-2{
+    width: 40%;
+    position:relative ;
+    left: 0px;
+}
+.imagem-cabecalho-3{
+    width: 40%;
+    position:relative ;
+    right: 1px;
+}
+.cabecalho2{
+    background-image: linear-gradient( orange,red);
     display: flex;
 }
