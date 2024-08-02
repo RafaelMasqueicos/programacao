@@ -1,31 +1,14 @@
-header{ 
-    background-color: rgb(75, 67, 67);
-    color: white; 
+@import url(styles/header.css);
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF; 
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+
 }
 body{
-    background-color: rgb(20, 1, 105);
-    color: white; 
+    background-color: var(--cor-de-fundo);
 }
-.imagem-cabecalho{
-    width: 40%;
-}
-.cabecalho{
-    background-image: linear-gradient(rgb(8, 11, 185), rgb(31, 2, 134));
-    display: flex;
-}
-.escola-imagem{
-    width: 40%;
-}
-.estudante-imagem{
-    width: 120px;
-}
-.icone-imagem{
-    width: 24px;
-}
-.estudante-div{
-    text-align: center;
-}
-.estudante-titulo{
-    text-align: center;
-    padding: 25px 0;
+h1{
+    background-color: white;
 }
